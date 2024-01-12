@@ -51,3 +51,6 @@ function getPlayerRank(){
 
   return `O Herói tem de saldo de vitórias: ${totalWins} e está no nível de ${ranking}.`;
 }
+
+// chama a função e imprime o resultado
+console.log(getPlayerRank());
